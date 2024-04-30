@@ -1,7 +1,33 @@
-downPanel {
+.downPanel {
+  width: 1350px;
+  height: 100px;
+
+  border-radius: 150px;
+
     background-color: midnightblue;
     position: fixed;
 
-      top: 30px;
-      right: 5px;
+      top: 550px;
+      right: -20px;
+}
+
+.downPanelText {
+  font-size: 18   px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 10;
+  font-style: normal;
+  color: white;
+  position: fixed;
+  top: 560px;
+  right: 600px;
+}
+
+.downPanelHandle {
+  width: 150px;
+height: 5px;
+border-radius: 150px;
+  background-color: rgb(46, 46, 100);
+  position: fixed;
+top: 560px;
+right: 600px;
 }

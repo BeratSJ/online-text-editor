@@ -3,6 +3,10 @@ body{
     background-color: gray;
 }
 h1{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:  10;
+    font-style: normal;
     text-align: center;
     color: white;
 }
