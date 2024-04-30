@@ -1,0 +1,7 @@
+downPanel {
+    background-color: midnightblue;
+    position: fixed;
+
+      top: 30px;
+      right: 5px;
+}
