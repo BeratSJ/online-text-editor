@@ -1,5 +1,5 @@
 .downPanel {
-  width: 1350px;
+  width: 1410px;
   height: 150px;
 
   border-radius: 150px;
@@ -17,9 +17,9 @@
   font-weight: 10;
   font-style: normal;
   color: white;
-  position: fixed;
-  top: 560px;
-  right: 600px;
+  text-align: center;
+  
+  
 }
 
 .downPanelHandle {
@@ -28,6 +28,6 @@ height: 5px;
 border-radius: 150px;
   background-color: rgb(46, 46, 100);
   position: fixed;
-top: 560px;
-right: 600px;
+     top: 555px;
+     right: 610px;
 }
