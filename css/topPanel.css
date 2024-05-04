@@ -5,7 +5,7 @@
   background-color: midnightblue;
   position: fixed;
     right: -20px;
-    bottom: 550px;
+    bottom: 575px;
 }
 h1{
     font-family: "Montserrat", sans-serif;
@@ -16,5 +16,5 @@ h1{
 
     position: fixed;
   right: 475px;
-  bottom: 550px;
+  bottom: 575px;
 }
