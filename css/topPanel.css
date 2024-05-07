@@ -1,20 +1,16 @@
 .topPanel {
-    width: 1410px;
-    height: 150px;
-    border-radius: 150px;
-  background-color: midnightblue;
-  position: fixed;
-    right: -20px;
-    bottom: 575px;
+    /*width: 1300px;*/
+    /*height: 10px;*/
+   /* border-radius: 100px; */
+   /* background-color: midnightblue;*/
+  text-align: center;
+  
+  
 }
 h1{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight:  10;
     font-style: normal;
     color: white;
-
-    position: fixed;
-  right: 475px;
-  bottom: 575px;
+    text-align: center;
 }
