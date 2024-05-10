@@ -4,7 +4,7 @@
 
   border-radius: 150px;
 
-    background-color: midnightblue;
+    
     position: fixed;
 
       top: 575px;
@@ -26,7 +26,6 @@
   width: 150px;
 height: 5px;
 border-radius: 150px;
-  background-color: rgb(46, 46, 100);
   position: fixed;
      top: 580px;
      right: 610px;

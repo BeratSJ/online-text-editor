@@ -17,21 +17,35 @@
 <link rel="stylesheet" href="css/button.css">
 <link rel="stylesheet" href="css/downPanel.css">
 <link rel="stylesheet" href="css/topPanel.css">
+<link rel="stylesheet" href="css/leftPanel.css">
 
 </head>
 <body>
+    <div class="leftPanel">
+        <p></p>
+        <div class="leftPanelHandle"></div>
+    </div>
 <div class="topPanel">
     <h1>Berat's Online Text Editor</h1>
     </div>
-    <input type="file" id="txtLoad"><br/>
+    <div class="fileTXT">
+        <input type="file" id="fileInput">
+        <button id="txtLoad">TXT Load</button>
+        <button id="saveButton">Metni Kaydet</button>
+    </div>
+    
+    
+    <script src="js/txtLoad.js"></script>
+    <script src="js/txtSave.js"></script>
     <textarea class="textEditor" id="myTextarea" rows="25" cols="85"></textarea>
+    
     
     
 
     <div class="downPanel">
         <div class="downPanelHandle"></div>
 
-        <p class="downPanelText">BeratSJ @2024 v0.0.8</p>
+        <p class="downPanelText">BeratSJ @2024 v0.1.0</p>
         <a href="https://github.com/beratsj/online-text-editor">Github</a>
     </div>
 
