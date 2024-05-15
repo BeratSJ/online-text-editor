@@ -5,7 +5,7 @@ Now You Can Use This Text Editor.
 Developments Continue.
 ## About
 
-- You Can Load File And Edit.(Once installed Click the Button)
+- You Can Load File And Edit.
 - You Can Save File.
 - Simple System
 - Project Still Being Developed

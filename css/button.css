@@ -3,5 +3,7 @@
     position: relative;
     top: 425px;
 }
-
+.fileLoad {
+    border-radius: 50px;
+}
 
