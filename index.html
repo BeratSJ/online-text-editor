@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<title>Text Editor v0.1.9</title>
+<title>Text Editor v0.2.0</title>
 
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,9 +30,13 @@
     <h1>Berat's Online Text Editor</h1>
     </div>
     <div class="fileTXT">
-        <input type="file" id="fileInput" name="dosya" accept=".md,.doc,.docx,.txt">
+        <div class="file-input-container">
+          <input type="file" id="fileInput" class="file-input" />
+          <label for="fileInput" class="button-label">File Load</label>
+        </div>
         
-        <button id="saveButton">Save TXT</button>
+        
+        <button class="fileSave" id="saveButton">Save TXT</button>
     </div>
     
     
@@ -46,7 +50,7 @@
     <div>
         <div class="downPanelHandle"></div>
 
-        <p class="downPanelText">v0.1.9 Alpha</p>
+        <p class="downPanelText">v0.2.0 Alpha</p>
         
     </div>
 
