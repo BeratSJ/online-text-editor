@@ -22,7 +22,7 @@
 .githubLogo {
   width: 30px;
   height: 30px;
-   position: fixed;
-  top: 4s0px;
-  left: 7px;
+   position: relative;
+  top: 40px;
+  left: 20px;
 }
