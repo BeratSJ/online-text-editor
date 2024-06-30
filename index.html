@@ -1,59 +1,43 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<title>Text Editor v0.2.4</title>
+<title>Text Editor</title>
 <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</meta>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
-    </style>
+</style>
 
-<link rel="stylesheet" href="main/css/style.css">
-<link rel="stylesheet" href="main/css/texteditor.css">
-<link rel="stylesheet" href="main/css/button.css">
-<link rel="stylesheet" href="main/css/downPanel.css">
-<link rel="stylesheet" href="main/css/topPanel.css">
-<link rel="stylesheet" href="main/css/leftPanel.css">
-<link rel="stylesheet" href="main/css/fileSystem.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/texteditor.css">
+<link rel="stylesheet" href="css/button.css">
+<link rel="stylesheet" href="css/downPanel.css">
+<link rel="stylesheet" href="css/topPanel.css">
+<link rel="stylesheet" href="css/leftPanel.css">
+<link rel="stylesheet" href="css/fileSystem.css">
 
 </head>
 <body>
     <div class="leftPanel">
-        <a href="a"><img class="menu" src="main/img/menu.png" alt="Menu"></a><br/>
-        <div></div>
-        <div ><a href="https://github.com/BeratSJ"><img class="githubLogo" src="main/img/github.png" alt="Github Account"></a><br/><div class="githubLogo-Background"></div></div>>
+        <a href="#"><img class="menu" src="img/menu.png" alt="Menu"></a><br/>
+        <a href="https://github.com/BeratSJ/online-text-editor"><img class="githubLogo" src="img/github.png" alt="Github Account"></a><br/>
+        <a href="#"><img class="loadImage" src="img/load.png" alt="Github Account" id="uploadImage"></a><br/>
+        <img class="saveImage" src="img/save.png" alt="Github Account" id="saveButton"><br/>
         <div class="leftPanelHandle"></div>
     </div>
-<div>
-    <h1>Berat's Online Text Editor</h1>
-    </div>
-    <div class="fileTXT">
-        <div class="file-input-container">
-          <input type="file" id="fileInput" class="file-input" />
-          <label for="fileInput" class="button-label">File Load</label>
-        </div>
-        
-        
-        <button class="fileSave" id="saveButton">Save TXT</button>
-    </div>
-    
-    
-    <script src="main/js/txtLoad.js"></script>
-    <script src="main/js/txtSave.js"></script>
-    <textarea class="textEditor" id="myTextarea" rows="25" cols="85"></textarea>
-    
-    
-    
 
     <div>
-        <div class="downPanelHandle"></div>
-
-        <p class="downPanelText">v0.2.4 Alpha</p>
-        
+        <h1>Berat's Online Text Editor</h1>
     </div>
-
+    <input type="file" id="fileInput" style="display: none;">
+    <script src="js/txtLoad.js"></script>
+    <script src="js/txtSave.js"></script>
+    <textarea class="textEditor" id="myTextarea" rows="35" cols="150"></textarea>
+    
+    <div>
+        <div class="downPanelHandle"></div>
+        <p class="downPanelText">v1.0.0</p>
+    </div>
 </body>
 </html>

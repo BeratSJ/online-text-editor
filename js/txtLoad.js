@@ -1,3 +1,7 @@
+document.getElementById('uploadImage').addEventListener('click', function() {
+    document.getElementById('fileInput').click();
+});
+
 document.getElementById('fileInput').addEventListener('change', function() {
     var fileInput = document.getElementById('fileInput');
     var textarea = document.getElementById('myTextarea');
