@@ -21,7 +21,7 @@ You Can Use [Online Text Editor](https://beratsj.github.io/online-text-editor/)
 
 - Developer : [@BeratSJ](https://github.com/BeratSJ)
 
-Online Text Editor v1.0.0
+Online Text Editor v1.0.2
 
   
 ## License
