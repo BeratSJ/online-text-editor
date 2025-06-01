@@ -1,11 +1,11 @@
 .leftPanel {
   width: 75px;
-  height: 250px;
+  height: 200px;
   background-color: midnightblue;
-  border-bottom-right-radius: 50px;
+  border-bottom-right-radius: 25px;
   position: fixed;
   left: -10px;
-  top:  0px;
+  top:  -15px;
   z-index: 1000;
 }
 
@@ -17,22 +17,20 @@
   background-color: rgb(46, 46, 100);
   position: fixed;
   left: 55px;
-  top: 30px;
+  top: 10px;
 }
 
-.menu {
-  width: 30px;
-  height: 30px;
-  position: relative;
-  top: 10px;
-  left: -5px;
-}
+
+
+
+
+
 
 .loadImage {
     width: 30px;
     height: 30px;
     position: relative;
-    top: 0px;
+    top: -5px;
     left: -5px;
 }
 
@@ -40,7 +38,7 @@
   width: 30px;
   height: 30px;
   position: relative;
-  top: 20px;
+  top: 15px;
   left: -5px;
 }
 .saveImage:hover {
@@ -53,7 +51,7 @@
   width: 30px;
   height: 30px;
   position: relative;
-  top: 150px;
+  top: 135px;
   left: -5px;
 }
 
